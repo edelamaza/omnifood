@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color:white;
     color: black;
     font-family: 'Lato', sans-serif;
@@ -55,8 +56,17 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
-
 }
+
+.logo-black{
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+    
+}
+/* NAVIGATION */
 
 .main-nav {
     float: right;
@@ -84,6 +94,34 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px rgb(78, 78, 78);
+    
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    padding: 16px 0px; 
+}
+
+.sticky .logo-black{
+    display: block;
+}
+.sticky .logo {
+    display: none;
+}
+
+.main-nav {
+    margin-top: 18px;
 
 }
 .hero-text-box {
