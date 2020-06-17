@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
 
@@ -23,10 +24,10 @@
                 <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
                 <img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
                 <ul class="main-nav">
-                    <li> <a href="#">Food Delivery</a> </li>
-                    <li> <a href="#">How it Works</a> </li>
-                    <li> <a href="#">Our Cities</a> </li>
-                    <li> <a href="#">Sign Up</a> </li>
+                    <li> <a href="#features">Food Delivery</a> </li>
+                    <li> <a href="#works">How it Works</a> </li>
+                    <li> <a href="#cities">Our Cities</a> </li>
+                    <li> <a href="#plans">Sign Up</a> </li>
 
                 </ul>
             </div>
@@ -34,12 +35,12 @@
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I’m hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
         </div>
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">
@@ -49,7 +50,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -132,7 +133,7 @@
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -160,7 +161,7 @@
         </div>
     </section>
 
-    <section class="section-ciites">
+    <section class="section-ciites" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -273,7 +274,7 @@
         </div>
 
     </section>
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
