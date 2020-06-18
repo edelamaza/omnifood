@@ -132,6 +132,18 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* MOBILE NAVI*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white;
+
+}
 /* Headings */
 h1,h2,h3 {
     font-weight: 300;
@@ -583,10 +595,22 @@ footer p {
 
 /* ANIMATIONS */
 
-.js--wp-1 {
+.js--wp-1, 
+.js--wp-2,
+.js--wp-3 {
     opacity: 0;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
 }
 
-.js--wp-1.animated {
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
     opacity: 1;
 }
+
